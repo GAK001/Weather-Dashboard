@@ -35,7 +35,7 @@ function renderData() {
 
     cityIcon.attr(
       "src",
-      "http://openweathermap.org/img/wn/" +
+      "https://openweathermap.org/img/wn/" +
         response.list[0].weather[0].icon +
         "@2x.png"
     );
@@ -68,7 +68,7 @@ function renderData() {
 
         forecastIcon.attr(
           "src",
-          "http://openweathermap.org/img/wn/" +
+          "https://openweathermap.org/img/wn/" +
             response.list[i].weather[0].icon +
             "@2x.png"
         );
